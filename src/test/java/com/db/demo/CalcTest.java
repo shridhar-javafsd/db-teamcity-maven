@@ -45,4 +45,9 @@ public class CalcTest {
 	public void testSubNums2() {
 		assertNotEquals(4, calc.subNums(10, 5));
 	}
+
+	@Test
+	public void testDivNums() {
+		assertEquals(2, calc.divNums(10, 5));
+	}
 }
