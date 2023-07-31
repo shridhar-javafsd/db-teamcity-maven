@@ -58,6 +58,6 @@ public class CalcTest {
 
 	@Test
 	public void testDivNums3() {
-		assertEquals(5, calc.divNums(10, 5));
+		assertEquals(2, calc.divNums(10, 5));
 	}
 }
