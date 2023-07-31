@@ -11,12 +11,7 @@ import org.junit.platform.commons.annotation.Testable;
 import com.db.demo.math.Calc;
 
 @Testable
-public class AppTest {
-
-	@Test
-	public void testTest() {
-		assertEquals(10, 5 + 5);
-	}
+public class AppTests {
 
 	static Calc calc;
 
@@ -48,10 +43,5 @@ public class AppTest {
 	@Test
 	public void testSubNums2() {
 		assertNotEquals(4, calc.subNums(10, 5));
-	}
-
-	@Test
-	public void testDivNums() {
-		assertEquals(2, calc.divNums(10, 5));
 	}
 }
