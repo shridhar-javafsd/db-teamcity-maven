@@ -60,4 +60,9 @@ public class CalcTest {
 	public void testDivNums3() {
 		assertEquals(2, calc.divNums(10, 5));
 	}
+
+	@Test
+	public void testDivNums4() {
+		assertEquals(2, calc.divNums(10, 5));
+	}
 }
