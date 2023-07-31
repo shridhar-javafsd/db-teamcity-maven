@@ -50,4 +50,9 @@ public class CalcTest {
 	public void testDivNums() {
 		assertEquals(2, calc.divNums(10, 5));
 	}
+
+	@Test
+	public void testDivNums2() {
+		assertNotEquals(3, calc.divNums(10, 5));
+	}
 }
